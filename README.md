@@ -42,5 +42,7 @@ This AI-based tool uses techniques like Shape-from-Shading and Gradient Domain R
 - **Real-time Elevation & Risk Metrics**
 - **Export Capabilities for Advanced Use**
 
-## website link 
+## 🚀 Live Demo
+
+🌐 [Click here to view the live site](https://lunarwebsite-y38g.onrender.com/)
 
