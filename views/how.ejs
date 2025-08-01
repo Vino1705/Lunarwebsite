@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+
+<section class="content">
+  <h2>How It Works</h2>
+  <p>Our system processes a single grayscale lunar image and reconstructs 3D terrain, highlighting slopes and hazards for lunar exploration.</p>
+
+  <div class="workflow">
+    <div class="step">
+      <h3>📤 1. Upload Lunar Image</h3>
+      <p>User uploads a 2D grayscale image of the lunar surface.</p>
+    </div>
+
+    <div class="step">
+      <h3>🧪 2. Preprocessing</h3>
+      <p>The image is cleaned, normalized, and gradients are computed using Sobel filters.</p>
+    </div>
+
+    <div class="step">
+      <h3>📊 3. 3D Elevation Reconstruction</h3>
+      <p>Shape-from-shading and gradient domain techniques reconstruct the terrain’s elevation map.</p>
+    </div>
+
+    <div class="step">
+      <h3>📈 4. Slope & Hazard Map</h3>
+      <p>We calculate terrain slopes and classify them as safe (green), caution (yellow), or risky (red).</p>
+    </div>
+
+    <div class="step">
+      <h3>🌍 5. 3D Visualization</h3>
+      <p>Users can explore the 3D mesh in a WebGL viewer with real-time interaction.</p>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

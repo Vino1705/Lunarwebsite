@@ -1,0 +1,58 @@
+<%- include('partials/header') %>
+
+<section class="hero">
+  <h2>About the Project</h2>
+  <p>
+    This project uses AI-based terrain reconstruction to visualize the lunar surface in 3D from grayscale images.
+    It helps identify hazards and plan rover paths for safe exploration.
+  </p>
+</section>
+
+<section class="overview fade-in">
+  <h2>Project Overview: Lunar Terrain Reconstruction and Visualization System</h2>
+  <p>
+    Internally referred to as <strong>ISRO HAVK</strong>, this solution transforms a single 2D image of the lunar surface
+    into an interactive, data-rich 3D terrain model. It provides topographical insights and analysis tools for mission
+    planners, engineers, and astronauts to improve safety and operational efficiency during lunar missions.
+  </p>
+</section>
+
+<section class="features fade-in">
+  <h2>Key Features & Capabilities</h2>
+
+  <h3>I. Core Terrain Reconstruction & Data Generation</h3>
+  <ul>
+    <li>🗺️ <strong>2D to 3D Terrain Reconstruction</strong></li>
+    <li>🧪 <strong>Image Preprocessing with CLAHE & Blur</strong></li>
+    <li>📈 <strong>Slope Map Generation</strong></li>
+    <li>🚦 <strong>Hazard Map (Red-Yellow-Green Zones)</strong></li>
+  </ul>
+
+  <h3>II. Interactive Visualization & Analysis Tools</h3>
+  <ul>
+    <li>🧭 <strong>Interactive 3D Viewer</strong></li>
+    <li>🎛️ <strong>Visual Overlays for texture/slope/hazard</strong></li>
+    <li>🪧 <strong>Real-Time Tooltip with slope & hazard</strong></li>
+    <li>📊 <strong>Terrain Statistics Panel</strong></li>
+    <li>🛬 <strong>Landing Zone Detection</strong></li>
+  </ul>
+
+  <h3>III. Mission Planning & Operational Utilities</h3>
+  <ul>
+    <li>📏 <strong>3D Distance Measurement Tool</strong></li>
+    <li>🛞 <strong>Rover Path Planning (A* Search)</strong></li>
+    <li>💾 <strong>Export Mesh, Maps, and Elevation Data</strong></li>
+  </ul>
+
+  <h3>IV. User Interface & Experience</h3>
+  <ul>
+    <li>🌌 <strong>Fullscreen Upload Page with Space Theme</strong></li>
+    <li>⚙️ <strong>Sliders and Dynamic Controls</strong></li>
+  </ul>
+
+  <div class="cta-button">
+    <a href="/gallery">🚀 See It in Action →</a>
+  </div>
+</section>
+
+<%- include('partials/footer') %>

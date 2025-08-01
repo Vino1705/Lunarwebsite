@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+
+<section class="content">
+  <h2>Contact Us</h2>
+  <p>If you’re interested in collaboration, research support, or demo access to our Lunar Terrain Reconstruction system, feel free to reach out.</p>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> ganesh957kumar@gmail.com</p>
+    <p><strong>Phone:</strong> +91-7825083996</p>
+    <p><strong>Location:</strong> Chennai, India</p>
+  </div>
+
+  <form class="contact-form" action="/contact" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+<%- include('partials/footer') %>
